@@ -1,0 +1,53 @@
+.datos {
+    width: 40%;
+    background-color: #979797;
+}
+
+#arbol {
+    margin-top: 30px;
+}
+
+.nodo {
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #979797;
+    font-size: 18px;
+    text-align: center;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nodo-hijos {
+    display: flex;
+    justify-content: center;
+}
+
+div[data-numero="num"] {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 252);
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+    border: 3px white solid;
+}
+
+div[data-simbolo="sim"] {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 37, 37);
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+    border: 3px white solid;
+}
